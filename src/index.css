@@ -185,27 +185,27 @@ All colors MUST be HSL.
   .btn-primary {
     @apply bg-gradient-to-r from-primary to-primary-light text-primary-foreground;
     @apply hover:from-primary-dark hover:to-primary;
-    @apply shadow-elegant transition-smooth;
+    @apply shadow-elegant transition-all duration-300 ease-out;
     @apply px-8 py-3 rounded-lg font-medium;
   }
   
   .btn-secondary {
     @apply bg-white/90 text-primary border-2 border-primary/20;
     @apply hover:bg-primary hover:text-primary-foreground;
-    @apply transition-smooth px-8 py-3 rounded-lg font-medium;
+    @apply transition-all duration-300 ease-out px-8 py-3 rounded-lg font-medium;
   }
   
   .btn-accent {
     @apply bg-gradient-to-r from-accent to-accent-light text-accent-foreground;
     @apply hover:from-accent hover:to-accent;
-    @apply shadow-soft transition-smooth;
+    @apply shadow-soft transition-all duration-300 ease-out;
     @apply px-8 py-3 rounded-lg font-medium;
   }
   
   .card-elegant {
     @apply bg-card/80 backdrop-blur-sm border border-border/50;
     @apply shadow-card rounded-xl p-8;
-    @apply transition-smooth hover:shadow-elegant;
+    @apply transition-all duration-300 ease-out hover:shadow-elegant;
   }
   
   .hero-gradient {
