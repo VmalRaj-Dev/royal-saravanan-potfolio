@@ -232,6 +232,15 @@ All colors MUST be HSL.
   .scale-on-hover:hover {
     transform: scale(1.05);
   }
+  
+  /* Leaders Gallery Animation */
+  .animate-scroll {
+    animation: scroll 60s linear infinite;
+  }
+  
+  .animate-scroll:hover {
+    animation-play-state: paused;
+  }
 }
 
 @layer utilities {
@@ -260,5 +269,14 @@ All colors MUST be HSL.
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
   }
 }
