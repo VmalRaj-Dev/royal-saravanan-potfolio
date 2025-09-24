@@ -1,6 +1,6 @@
-# R. Nandakumar - BJP Tamil Nadu Website
+# Royal K Saravanan - BJP Tamil Nadu Website
 
-A modern, responsive political website for R. Nandakumar, Tamil Nadu State BJP Secretary and Observer for Pollachi Loksabha Constituency.
+A modern, responsive political website for Royal K Saravanan, District General Secretary - Erode South - BJP.
 
 ![Website Preview](src/assets/hero-bg.jpg)
 
@@ -159,9 +159,9 @@ This project is optimized for static site deployment on platforms like:
 ### Content Highlights
 - **Mission**: Dharma sustains society (அறம் சமுதாயத்tை காக்கும்)
 - **Philosophy**: Integral Humanism by Pandit Dheenadayal Upadhaya
-- **Role**: Tamil Nadu State BJP Secretary
-- **Constituency**: Observer Pollachi Loksabha
-- **Location**: Coimbatore, Tamil Nadu
+- **Role**: District General Secretary - Erode South - BJP
+- **Constituency**: Perundurai
+- **Location**: Perundurai, Tamil Nadu
 
 ## 🤝 Contributing
 
@@ -183,4 +183,4 @@ This project is created for R. Nandakumar's official political representation an
 
 ---
 
-**Built with ❤️ for Tamil Nadu | Jai Hind! 🇮🇳**
+**Built with Cre8iveloop for Tamil Nadu | Jai Hind! 🇮🇳**

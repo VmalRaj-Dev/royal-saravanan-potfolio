@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Menu, X, Home, User, Users, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import lotusLogo from "@/assets/lotus-logo.png";
+import lotusLogo from "@/assets/lotus-logo.jpg";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

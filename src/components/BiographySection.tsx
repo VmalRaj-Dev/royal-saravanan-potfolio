@@ -5,13 +5,8 @@ const BiographySection = () => {
   const achievements = [
     {
       icon: Award,
-      title: "Tamil Nadu State BJP Secretary",
+      title: "District General Secretary - Erode South - BJP",
       description: "Leading the party's organizational structure across Tamil Nadu with dedication and strategic vision."
-    },
-    {
-      icon: MapPin,
-      title: "Observer Pollachi Loksabha Constituency",
-      description: "Overseeing and strengthening the party's presence in the strategically important Pollachi constituency."
     },
     {
       icon: Heart,
@@ -47,23 +42,23 @@ const BiographySection = () => {
             <Card className="card-elegant h-full">
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold text-primary mb-6">
-                  About R. Nandakumar
+                  About Royal K Saravanan
                 </h3>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    R. Nandakumar stands as a beacon of dedicated service and principled leadership 
+                    Royal K Saravanan stands as a beacon of dedicated service and principled leadership 
                     in Tamil Nadu's political landscape. As the State BJP Secretary, he embodies 
                     the party's core values of nationalism, development, and good governance.
                   </p>
                   <p>
-                    His role as Observer for the Pollachi Loksabha Constituency demonstrates his 
+                    His role as District General Secretary - Erode South - BJP demonstrates his 
                     strategic importance in strengthening the party's grassroots presence across 
-                    Tamil Nadu. Based in Coimbatore, he has been instrumental in building bridges 
+                    Tamil Nadu. Based in Perundurai, he has been instrumental in building bridges 
                     between diverse communities and fostering inclusive development.
                   </p>
                   <p>
                     Guided by the philosophy of Integral Humanism as envisioned by Pandit 
-                    Dheenadayal Upadhaya, R. Nandakumar continues to work towards creating 
+                    Dheenadayal Upadhaya, Royal K Saravanan continues to work towards creating 
                     a society where Dharma sustains and guides all aspects of governance and 
                     social progress.
                   </p>

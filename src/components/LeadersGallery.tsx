@@ -1,8 +1,9 @@
 import { Star } from "lucide-react";
 import modieader from "@/assets/leader-modi.jpg";
-import shahLeader from "@/assets/leader-shah.jpg";
-import femaleLeader from "@/assets/leader-female.jpg";
-import profileImage from "@/assets/rnandakumar-profile.jpg";
+import shahLeader from "@/assets/amit-shah.jpg";
+import annamalai from "@/assets/annamalai.jpg";
+import profileImage from "@/assets/saravan-bjp.jpg";
+import nainar from "@/assets/nainar-nagendran.jpg";
 
 const LeadersGallery = () => {
   const leaders = [
@@ -19,33 +20,27 @@ const LeadersGallery = () => {
       isHighlighted: true
     },
     {
-      name: "Senior Leader",
-      position: "BJP Leader",
-      image: femaleLeader,
+      name: "Annamalai",
+      position: "Ex BJP Leader",
+      image: annamalai,
       isHighlighted: false
     },
     {
-      name: "R. Nandakumar",
+      name: "Royal K Saravanan",
       position: "TN State Secretary",
       image: profileImage,
       isHighlighted: true
     },
     {
-      name: "Senior Leader",
-      position: "BJP Leader", 
-      image: modieader,
+      name: "Nainar Nagendran",
+      position: "Tamilnadu BJP Leader", 
+      image: nainar,
       isHighlighted: false
     },
     {
       name: "Senior Leader",
       position: "BJP Leader",
       image: shahLeader,
-      isHighlighted: false
-    },
-    {
-      name: "Senior Leader",
-      position: "BJP Leader",
-      image: femaleLeader,
       isHighlighted: false
     },
     {
@@ -66,12 +61,6 @@ const LeadersGallery = () => {
       image: shahLeader,
       isHighlighted: false
     },
-    {
-      name: "Senior Leader",
-      position: "BJP Leader",
-      image: femaleLeader,
-      isHighlighted: false
-    }
   ];
 
   return (

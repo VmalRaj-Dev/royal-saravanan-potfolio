@@ -35,7 +35,7 @@ const ContactSection = () => {
     {
       icon: MapPin,
       title: "Office Location",
-      details: ["Coimbatore", "Tamil Nadu", "India"],
+      details: ["Perundurai", "Tamil Nadu", "India"],
       action: "View on Map"
     },
     {
@@ -47,7 +47,7 @@ const ContactSection = () => {
     {
       icon: Mail,
       title: "Email & Online",
-      details: ["Social Media Direct Messages", "Facebook: R.Nandakumar", "Twitter: @rnandakumarbjp"],
+      details: ["Social Media Direct Messages", "Facebook: Royal K Saravanan", "Twitter: @royalksaravanan"],
       action: "Send Message"
     }
   ];
@@ -56,13 +56,13 @@ const ContactSection = () => {
     {
       icon: Facebook,
       name: "Facebook",
-      link: "https://www.facebook.com/rnandakumarbjp",
+      link: "https://www.facebook.com/saravanan.bjp.925/",
       color: "bg-blue-600 hover:bg-blue-700"
     },
     {
       icon: Twitter,
       name: "Twitter", 
-      link: "https://twitter.com/rnandakumarbjp",
+      link: "https://x.com/royalksaravanan",
       color: "bg-sky-500 hover:bg-sky-600"
     }
   ];

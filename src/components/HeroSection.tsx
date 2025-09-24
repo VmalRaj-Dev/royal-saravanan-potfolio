@@ -1,8 +1,8 @@
 import { ArrowRight, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroBackground from "@/assets/hero-bg.jpg";
-import profileImage from "@/assets/rnandakumar-profile.jpg";
-import lotusLogo from "@/assets/lotus-logo.png";
+import profileImage from "@/assets/saravan-bjp.jpg";
+import lotusLogo from "@/assets/lotus-logo.jpg";
 import LeadersGallery from "./LeadersGallery";
 
 const HeroSection = () => {
@@ -88,7 +88,7 @@ const HeroSection = () => {
                   <div className="w-36 h-36 mx-auto rounded-full overflow-hidden border-4 border-primary/30 shadow-elegant">
                     <img 
                       src={profileImage} 
-                      alt="R. Nandakumar" 
+                      alt="Royal K Saravanan" 
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -99,18 +99,15 @@ const HeroSection = () => {
 
                 {/* Profile Info */}
                 <h3 className="text-2xl md:text-3xl font-bold text-primary mb-3">
-                  R. NANDAKUMAR
+                  Royal K Saravanan
                 </h3>
                 
                 <div className="space-y-2 mb-6">
                   <p className="text-lg font-semibold text-foreground">
-                    Tamil Nadu State BJP Secretary
-                  </p>
-                  <p className="text-muted-foreground">
-                    Observer Pollachi Loksabha Constituency
+                    District General Secretary - Erode South - BJP
                   </p>
                   <p className="text-accent font-medium text-lg">
-                    Coimbatore
+                    Perundurai
                   </p>
                 </div>
 

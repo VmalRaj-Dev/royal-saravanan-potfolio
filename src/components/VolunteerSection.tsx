@@ -212,7 +212,7 @@ const VolunteerSection = () => {
                     </div>
                     <div className="flex items-center space-x-3 text-muted-foreground">
                       <MapPin className="h-4 w-4 text-primary" />
-                      <span>Coimbatore, Tamil Nadu</span>
+                      <span>Perundurai, Tamil Nadu</span>
                     </div>
                   </div>
                 </div>

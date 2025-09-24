@@ -1,5 +1,5 @@
 import { Heart, Facebook, Twitter, Mail, MapPin } from "lucide-react";
-import lotusLogo from "@/assets/lotus-logo.png";
+import lotusLogo from "@/assets/lotus-logo.jpg";
 
 const Footer = () => {
   const quickLinks = [
@@ -10,10 +10,10 @@ const Footer = () => {
   ];
 
   const importantLinks = [
-    { name: "BJP Tamil Nadu", href: "https://www.bjp.org/tamilnadu" },
-    { name: "BJP National", href: "https://www.bjp.org" },
-    { name: "Government of India", href: "https://www.india.gov.in" },
-    { name: "Tamil Nadu Government", href: "https://www.tn.gov.in" }
+    { name: "BJP", href: "https://www.bjp.org/" },
+    { name: "MY GOV", href: "https://www.mygov.in/" },
+    { name: "Narendra Modi", href: "https://www.narendramodi.in/" },
+    { name: "BJP TAMILNADU", href: "http://www.bjptn.org/" }
   ];
 
   return (
@@ -31,7 +31,7 @@ const Footer = () => {
               />
               <div>
                 <h3 className="text-xl font-bold">BJP Tamil Nadu</h3>
-                <p className="text-white/80 text-sm">R. Nandakumar</p>
+                <p className="text-white/80 text-sm">Royal K Saravanan</p>
               </div>
             </div>
             <p className="text-white/80 mb-6 leading-relaxed">
@@ -40,7 +40,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a 
-                href="https://www.facebook.com/rnandakumarbjp" 
+                href="https://www.facebook.com/saravanan.bjp.925/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-white/10 p-3 rounded-full hover:bg-white/20 transition-colors"
@@ -48,7 +48,7 @@ const Footer = () => {
                 <Facebook size={20} />
               </a>
               <a 
-                href="https://twitter.com/rnandakumarbjp" 
+                href="https://x.com/royalksaravanan" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-white/10 p-3 rounded-full hover:bg-white/20 transition-colors"
@@ -102,9 +102,8 @@ const Footer = () => {
                 <MapPin size={18} className="mt-1 text-white/60" />
                 <div>
                   <p className="text-white/80">
-                    Tamil Nadu State BJP Secretary<br />
-                    Observer Pollachi Loksabha<br />
-                    Coimbatore, Tamil Nadu
+                    District General Secretary - Erode South - BJP<br />
+                    Perundurai, Tamil Nadu
                   </p>
                 </div>
               </div>
@@ -133,14 +132,14 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-center md:text-left">
               <p className="text-white/80">
-                © 2024 R. Nandakumar - BJP Tamil Nadu. All rights reserved.
+                © 2024 Royal K Saravanan - BJP Tamil Nadu. All rights reserved.
               </p>
               <p className="text-sm text-white/60 mt-1">
                 Committed to Integral Humanism and Nation Building
               </p>
             </div>
             <div className="flex items-center space-x-2 text-white/80">
-              <span>Made with</span>
+              <span>Made with Cre8iveloop</span>
               <Heart size={16} className="text-red-400" fill="currentColor" />
               <span>for Tamil Nadu</span>
             </div>

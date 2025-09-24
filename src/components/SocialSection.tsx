@@ -6,17 +6,17 @@ const SocialSection = () => {
   const socialStats = [
     {
       platform: "Facebook",
-      followers: "4,973 followers",
+      followers: "5,800 followers",
       icon: Facebook,
       color: "bg-blue-600",
-      link: "https://www.facebook.com/rnandakumarbjp"
+      link: "https://www.facebook.com/saravanan.bjp.925/"
     },
     {
       platform: "Twitter",
       followers: "Active Updates",
       icon: Twitter,
       color: "bg-sky-500",
-      link: "https://twitter.com/rnandakumarbjp"
+      link: "https://x.com/royalksaravanan"
     }
   ];
 
@@ -153,7 +153,7 @@ const SocialSection = () => {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button 
                   className="btn-primary"
-                  onClick={() => window.open('https://www.facebook.com/rnandakumarbjp', '_blank')}
+                  onClick={() => window.open('https://www.facebook.com/saravanan.bjp.925/', '_blank')}
                 >
                   Follow on Facebook
                 </Button>
