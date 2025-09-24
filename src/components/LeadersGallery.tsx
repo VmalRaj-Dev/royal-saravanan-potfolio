@@ -38,27 +38,33 @@ const LeadersGallery = () => {
       isHighlighted: false
     },
     {
-      name: "Senior Leader",
-      position: "BJP Leader",
-      image: shahLeader,
-      isHighlighted: false
-    },
-    {
-      name: "Senior Leader",
-      position: "BJP Leader",
-      image: profileImage,
-      isHighlighted: false
-    },
-    {
-      name: "Senior Leader",
-      position: "BJP Leader",
+      name: "Narendra Modi",
+      position: "Prime Minister",
       image: modieader,
+      isHighlighted: true
+    },
+    {
+      name: "Amit Shah", 
+      position: "Home Minister",
+      image: shahLeader,
+      isHighlighted: true
+    },
+    {
+      name: "Annamalai",
+      position: "Ex BJP Leader",
+      image: annamalai,
       isHighlighted: false
     },
     {
-      name: "Senior Leader",
-      position: "BJP Leader",
-      image: shahLeader,
+      name: "Royal K Saravanan",
+      position: "TN State Secretary",
+      image: profileImage,
+      isHighlighted: true
+    },
+    {
+      name: "Nainar Nagendran",
+      position: "Tamilnadu BJP Leader", 
+      image: nainar,
       isHighlighted: false
     },
   ];
